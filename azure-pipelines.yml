@@ -14,7 +14,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    jdkSourceOption: 'PreInstalled'     # ✅ Tells pipeline to use system JDK
+    jdkSourceOption: 'PreInstalled'
     jdkVersionOption: '21'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
